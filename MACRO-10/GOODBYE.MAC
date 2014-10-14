@@ -1,0 +1,12 @@
+        TITLE   GOODBYE WORLD
+
+        SEARCH  UUOSYM
+
+LAB:    ASCIZ   /Goodbye World
+/
+ 
+START:  RESET
+OUTPUT: OUTSTR  LAB
+        MONRT.
+        JRST    OUTPUT
+        END     START
