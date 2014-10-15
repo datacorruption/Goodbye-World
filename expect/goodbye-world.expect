@@ -1,0 +1,3 @@
+#!/usr/bin/env expect -f
+
+send_user "Goodbye World\n"
