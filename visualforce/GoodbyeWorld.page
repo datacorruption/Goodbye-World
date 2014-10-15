@@ -1,0 +1,5 @@
+<apex:page>
+    <apex:outputPanel layout="block">
+        Goodbye World
+    </apex:outputPanel>
+</apex:page>
