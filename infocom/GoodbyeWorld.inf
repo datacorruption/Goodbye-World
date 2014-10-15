@@ -1,0 +1,9 @@
+Include "parser";
+Include "verblib";
+Include "grammar";
+
+[ Initialise;
+    deadflag = 2;
+    print "Goodbye World";
+    return 2;
+];
