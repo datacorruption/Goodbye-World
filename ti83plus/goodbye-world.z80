@@ -1,0 +1,15 @@
+include "ti83plus.inc"
+define    ProgStart    $9D95
+
+.org    ProgStart - 2
+    .db    t2ByteTok, tAsmCmp
+    b_call(_ClrLCDFull)
+    ld    hl, 0
+    ld    (PenCol), hl
+    ld    hl, gdby
+    b_call(_PutS)
+    b_call(_NewLine)
+    ret
+
+gdby:
+    .db "Goodbye World", 0
