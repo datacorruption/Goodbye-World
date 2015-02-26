@@ -1,2 +1,2 @@
-/**/
-say Goodbye World
+/* Goodbye World */
+say 'Goodbye World'
