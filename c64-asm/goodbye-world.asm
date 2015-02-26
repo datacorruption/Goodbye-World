@@ -20,5 +20,5 @@ LOOP		lda textcontent,x ;
 
 ;-------------------------------------- data portion
 		
-textcontent			!SCR "goodbye world"
+textcontent			!SCR "Goodbye World"
 
