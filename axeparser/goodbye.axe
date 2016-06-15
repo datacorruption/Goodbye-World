@@ -1,0 +1,9 @@
+.Goodbye
+...
+Axe Parser is s a compiled on-calculator programming language for Ti-8x+ series.
+Here's the documentation : http://axe.eeems.ca/Documentation.pdf
+Use this source file in a source to .8xp converter.
+Uncomment (remove the dot before it) ClrHome if you want to erase the screen before displaying "Goodbye World".
+...
+.ClrHome
+Disp "Goodbye World"
